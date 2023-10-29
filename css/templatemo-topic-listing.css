@@ -1125,11 +1125,11 @@ blockquote {
   }
 
   .timeline-container .vertical-scrollable-timeline .list-progress {
-    height: 75%;
+    height: 85%;
   }
 
   .timeline-container .vertical-scrollable-timeline li {
-    padding-left: 135px;
+    padding-left: 115px;
   }
 
   .subscribe-form-wrap {
