@@ -1,0 +1,48 @@
+.noticacaoPedidosContent {
+    padding: 0.4rem 0.5rem 0.4rem 0.6rem;
+    display: flex;
+    background-color: #007666 !important;
+    box-shadow: 0 0 0.625em #d9d9d9;
+    overflow-y: hidden;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border-radius: 3px;
+    max-width: 500px;
+}
+
+.noticacaoPedidosIcon {
+    border: 3px solid #fff;
+    color: rgb(255, 255, 255);
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    margin: 0;
+    text-align: center;
+    line-height: 38px;
+    min-width: 42px;
+}
+
+.noticacaoPedidosIcon i {
+    font-size: 20px;
+}
+
+.noticacaoPedidosText {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-start;
+    margin: 0 .6em;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.noticacaoPedidosContent.animate-show {
+    -webkit-animation: swal2-toast-show .5s;
+    animation: swal2-toast-show .5s;
+}
+
+.noticacaoPedidosContent.animate-hide {
+    -webkit-animation: swal2-toast-hide 0.1s forwards;
+    animation: swal2-toast-hide 0.1s forwards;
+}
