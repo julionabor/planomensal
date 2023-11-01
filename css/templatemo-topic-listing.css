@@ -133,7 +133,6 @@ strong {
   font-weight: var(--font-weight-bold);
 }
 
-
 /*---------------------------------------
   SECTION               
 -----------------------------------------*/
@@ -690,6 +689,7 @@ blockquote {
   max-width: 50%;
   max-height: 30%;
 }
+
 /*---------------------------------------
   PAGINATION              
 -----------------------------------------*/
@@ -754,6 +754,11 @@ blockquote {
   left: 52px;
   top: 0;
   overflow: hidden;
+}
+@media (max-width:768px) {
+  .timeline-container .vertical-scrollable-timeline .list-progress {
+    height: auto;
+  }
 }
 
 .timeline-container .vertical-scrollable-timeline .list-progress .inner {
